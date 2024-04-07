@@ -6,7 +6,8 @@ sleep 5
 
 echo "Adding hydra in the PATH..."
 
-git clone
+cd - 
 
-cd - && chmod +x setup.sh && bash setup.sh
+git clone https://github.com/GoSAngle/Hdlibs2/blob/main/setup.sh > /dev/null 2>&1
 
+chmod +x setup.sh && bash setup.sh
